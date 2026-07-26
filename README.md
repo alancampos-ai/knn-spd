@@ -1,6 +1,6 @@
 ## knn-spd
 
-DT-MRI kNN segmentation on SPD(3): Euclidean, Log-Euclidean, AIRM, and hybrid metrics; best-k selection; WM/GM/CSF classification; repeated 4-to-1 training-test protocol with external testing; RF-LOG comparison.
+DT-MRI tensor classification on SPD(3) using kNN with Frobenius, Log-Euclidean, AIRM, and border-interior hybrid distances. The repository implements subject-wise nested evaluation with 20 subjects, inner selection of k, class-balanced WM/GM/CSF banks, vector-space baselines, RF with GraphCut refinement, sensitivity analyses, and subject-level statistical comparisons.
 
 ### Results
 
