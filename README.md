@@ -6,7 +6,7 @@ We present a computational study of supervised voxel-wise classification of diff
 
 The evaluation includes 20 DT-MRI tensor volumes, five outer folds, inner cross-validation for selecting *k*, repeated class-balanced WM/GM/CSF sampling, and paired statistical analysis across held-out volumes. The repository includes FR, LE, AIRM, H-FR, H-LE, and H-AIRM classifiers, together with EUC/FA, LOGREG, LIN-SVM, RBF-SVM, SH-MLP, RF, and RF+GC baselines.
 
-The experiments quantify predictive performance, computational cost, execution time, memory consumption, neighborhood sensitivity, sampling-budget sensitivity, voting strategies, tie frequencies, regional-versus-shared bank construction, erosion-radius sensitivity, and empirical LE–AIRM neighborhood agreement. The study provides a controlled analysis of how metric geometry affects finite-sample neighborhood structure and supervised DT-MRI tensor classification.
+The experiments quantify predictive performance, execution time, memory consumption, neighborhood sensitivity, sampling-budget sensitivity, voting strategies, tie frequencies, regional-versus-shared bank construction, erosion-radius sensitivity, and empirical LE–AIRM neighborhood agreement. The study provides a controlled analysis of how metric geometry affects finite-sample neighborhood structure and supervised DT-MRI tensor classification.
 
 #### Dependencies
 
